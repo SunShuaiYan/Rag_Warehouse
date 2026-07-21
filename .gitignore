@@ -1,0 +1,72 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test, type-checker, and linter caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.tox/
+.nox/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+.ipython/
+
+# Logs and runtime output
+logs/
+*.log
+output/
+
+# Local RAG corpus and generated indexes
+doc/
+data/
+datasets/
+models/
+model/
+checkpoints/
+index/
+indexes/
+vector_store/
+milvus_data/
+minio_data/
+mongo_data/
+neo4j_data/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
