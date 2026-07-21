@@ -13,7 +13,7 @@ from app.core.logger import logger
 # 作用：避免重复初始化客户端，提升性能，统一实例管理
 _llm_client_cache = {}
 
-
+## 增加注释
 def get_llm_client(model: Optional[str] = None, json_mode: bool = False) -> ChatOpenAI:
     """
     获取带全局缓存的LangChain ChatOpenAI客户端实例
